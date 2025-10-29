@@ -38,4 +38,8 @@ diff:
 the difference in return of `this` in formal and arrow function, is for the reason that, in formal function it is by default global scoped, but the return of arrow is due to the fact that it inherits the value of `this` from parent scope which in here is the global object.
 
 ## usage of `bind()`, `apply()` and `call()` to binding scopes
-1. 
+
+## Function borrowing [resource](https://medium.com/@mkare/function-borrowing-in-javascript-275e336a27f6)
+
+1. usage of methods from one object in another.
+2. Useful in implementing DRY principle
